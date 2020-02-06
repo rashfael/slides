@@ -1,0 +1,47 @@
+$dark-bg = #263238
+$dark-text = #FFF
+.logos
+	display: flex
+	img
+		height: 256px
+		max-height: none
+		max-width: none
+		margin: 0 32px
+
+@media(prefers-color-scheme: dark)
+	#app .daumenkino.daumenkino-theme-white
+		background-color: $dark-bg
+		color: #FFF
+
+.content__default
+	> :first-child
+		background: linear-gradient(to right, $dark-bg, $dark-bg 50%, transparent 50%, transparent)
+		h1
+			font-size: 128px
+			margin-left: 52px
+		span.dark
+			color: $dark-text
+
+	> :nth-child(5)
+		background: linear-gradient(to right, transparent, transparent 50%, $dark-bg 50%, $dark-bg)
+		.daumenkino-slide-content
+			flex-direction: row
+			> :first-child
+				margin-right: 48px
+				code
+					color: #333
+					.punctuation
+						color: #888
+					.property
+						color: #166724
+					.function
+						color: #169ed4
+			.language-css
+				background-color: transparent
+
+				&::before
+					content: none
+			pre
+				width: 340px
+			code
+				font-size: 16px

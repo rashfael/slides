@@ -1,0 +1,23 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashfael/slides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashfael/slides/issues"
+  },
+  "homepage": "https://github.com/rashfael/slides#readme",
+  "dependencies": {
+    "vuepress": "^1.3.0",
+    "vuepress-theme-daumenkino": "^0.4.0"
+  }
+}
