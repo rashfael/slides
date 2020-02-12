@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p
 
 .daumenkino.daumenkino-theme-white
 	.content__default
-		> :first-child
+		> :first-child, > :nth-child(3)
 			background: linear-gradient(to right, $dark-bg, $dark-bg 50%, transparent 50%, transparent)
 			h1
 				font-size: 128px
@@ -52,10 +52,17 @@ h1, h2, h3, h4, h5, h6, p
 					font-size: 16px
 
 .daumenkino.daumenkino-theme-dark
-	background-color:$dark-bg
+	background-color: $dark-bg
 	color: $dark-text
 	font-family: 'Quicksand'
 	font-size: 40px
 
 	img.small, video.small
 		max-width: 400px
+
+.shadow
+	height: 320px
+	width: @height
+	background-color: #334148
+	border-radius: 8px
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)

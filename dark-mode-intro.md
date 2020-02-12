@@ -7,6 +7,28 @@
 Mode
 </h1>
 
+---
+
+### %(Basics)
+### %(Human Vision / Contrast)
+### %(Implementation and Pitfalls)
+
+%(Break)
+
+### %(Discussion / Showcase)
+
+:::notes
+- 3 aspects
+- Break with food and drink
+:::
+
+---
+
+<h1>
+<span class="dark">Dark</span>
+Mode
+</h1>
+
 :::notes
 - What? Changing colors (shade, lightness)
 
@@ -19,26 +41,6 @@ Mode
 :::notes
 
 - my editor
-
-:::
-
----
-
-# CSS media query
-`prefers-color-scheme`
-
----
-
-### %(Basics)
-### %(Human Vision / Contrast)
-### %(Implementation and Pitfalls)
-
-%(Break / Food)
-
-### %(Open Floor)
-
-:::notes
-- 3 aspects
 
 :::
 

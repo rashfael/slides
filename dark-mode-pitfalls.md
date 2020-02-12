@@ -32,11 +32,19 @@ theme: dark
 
 ===
 
-desaturate foreground colors
+<img src="./assets/fails/oversaturated.svg">
+
+===
+
+<img src="./assets/fails/desaturated.svg">
 
 ---
 
-# Shadow
+<div class="shadow"></div>
+
+---
+
+<video class="small" v-if="active" src="~./assets/fails/shadow.mp4" autoplay="true" loop="true"/>
 
 ---
 
