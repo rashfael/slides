@@ -31,7 +31,6 @@ Mode
 
 :::notes
 - What? Changing colors (shade, lightness)
-
 :::
 
 ---
@@ -39,9 +38,7 @@ Mode
 <img src="./assets/dark-screen.png">
 
 :::notes
-
 - my editor
-
 :::
 
 ---
@@ -49,9 +46,7 @@ Mode
 # ~~Browser Extensions~~
 
 :::notes
-
 - 1st party support
-
 :::
 
 ---

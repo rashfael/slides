@@ -38,13 +38,17 @@ theme: dark
 
 <img src="./assets/fails/desaturated.svg">
 
----
+===
 
 <div class="shadow"></div>
 
----
+===
 
 <video class="small" v-if="active" src="~./assets/fails/shadow.mp4" autoplay="true" loop="true"/>
+
+===
+
+<div class="bordered"></div>
 
 ---
 
@@ -56,11 +60,19 @@ theme: dark
 
 ===
 
+<img class="small" src="./assets/fails/transparent.svg">
+
+===
+
 <video class="small" v-if="active" src="~./assets/fails/white-video.webm" autoplay="true" loop="true"/>
 
 ===
 
 <img class="small" src="./assets/fails/dark-content.png">
+
+===
+
+<img class="small" src="./assets/fails/inverted.png">
 
 ===
 
@@ -103,6 +115,10 @@ theme: dark
 ```
 
 </fragment>
+
+:::notes
+- custom properties
+:::
 
 ===
 
@@ -148,33 +164,23 @@ alpha(color, 0.08)
 ```
 
 :::notes
-
 - CSS Color Level 5
-
 :::
 
 ===
 
-# Bundlers
+# Bundlers / Frameworks
 
 :::notes
 - Webpack
 - Generate multiple stylesheets with different variables
+- vue single file components
+- css-in-js
 :::
 
-<!-- - assets
-- 3rd party integration iframes
-- color theory
-- shitty material design
-- css preprocessors? how do? color computation
-- app switch
+---
 
-
-HOW?
-
-- link media / picture media
-- Opting Into a Preferred Color Scheme: the color-scheme property
-
-https://web.dev/prefers-color-scheme/
-
-- high contrast -->
+:::notes
+- app settings theme switch / override
+- prefers-contrast
+:::
