@@ -14,11 +14,43 @@ Mode
 
 ---
 
-# Colors!
+<img src="./assets/dark-screen.png">
+
+:::notes
+
+- my editor
+
+:::
+
+---
+
+# CSS media query
+`prefers-color-scheme`
+
+---
+
+### %(Basics)
+### %(Human Vision / Contrast)
+### %(Implementation and Pitfalls)
+
+%(Break / Food)
+
+### %(Open Floor)
+
+:::notes
+- 3 aspects
+
+:::
 
 ---
 
 # ~~Browser Extensions~~
+
+:::notes
+
+- 1st party support
+
+:::
 
 ---
 
@@ -37,7 +69,9 @@ Mode
 
 ---
 
-# JS
+```js
+window.matchMedia('(prefers-color-scheme: dark)')
+```
 
 ---
 
@@ -65,7 +99,7 @@ iOS 13
 ---
 
 # Browser Support
-
+window.matchMedia('prefers-color-scheme: dark')
 <div class="logos">
 <img src="./assets/chrome.svg">
 <img src="./assets/firefox.svg">
@@ -91,13 +125,32 @@ iOS 13
 
 ---
 
-# Bugzilla
-
----
-
 # DuckDuckGo
 
 ---
 
+# FAZ
+
+---
+
+# Bugzilla
+
+---
+
 # Dark Themes
-## Twitter, Slack, Gmail
+
+===
+
+<img src="./assets/twitter.png">
+
+===
+
+<img src="./assets/slack.png">
+
+===
+
+<img src="./assets/gmail.png">
+
+===
+
+<img src="./assets/spotify.png">

@@ -17,7 +17,138 @@
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="grey-palette-5.svg">
   <defs
-     id="defs4779" />
+     id="defs4779">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2733">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2723" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2725" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.68586"
+         result="blur"
+         id="feGaussianBlur2727" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset2729" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite2731" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2735" />
+      <feFlood
+         id="feFlood2737"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite2739"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur2741"
+         in="composite1"
+         stdDeviation="1.7"
+         result="blur" />
+      <feOffset
+         id="feOffset2743"
+         dx="3"
+         dy="3"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite2745"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter2733-4">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2723-4" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2725-7" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.68586"
+         result="blur"
+         id="feGaussianBlur2727-6" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="offset"
+         id="feOffset2729-3" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite2731-1" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2735-7" />
+      <feFlood
+         id="feFlood2737-5"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite2739-9"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur2741-6"
+         in="composite1"
+         stdDeviation="1.7"
+         result="blur" />
+      <feOffset
+         id="feOffset2743-2"
+         dx="3"
+         dy="3"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite2745-1"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,8 +157,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="623.01358"
-     inkscape:cy="264.00696"
+     inkscape:cx="764.44216"
+     inkscape:cy="492.57839"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +179,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,11 +197,27 @@
        y="-175.00426"
        transform="rotate(90)" />
     <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#121e17;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11125004;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4518-9-8-9"
+       width="117.00001"
+       height="84.875168"
+       x="97.979164"
+       y="-175.00424"
+       transform="rotate(90)" />
+    <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#022612;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11124992;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect4518-7-8"
        width="123.22022"
        height="84.875168"
        x="91.758934"
+       y="-90.658218"
+       transform="rotate(90)" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#0f1913;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11125004;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4518-7-8-7"
+       width="117.00001"
+       height="84.875168"
+       x="97.979164"
        y="-90.658218"
        transform="rotate(90)" />
     <rect
@@ -82,6 +229,14 @@
        y="-6.31213"
        transform="rotate(90)" />
     <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#090f0c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11125004;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4518-5-3-3"
+       width="117.00001"
+       height="84.875168"
+       x="97.979164"
+       y="-6.3121371"
+       transform="rotate(90)" />
+    <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#010f07;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11124992;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect4518-3-1"
        width="123.22022"
@@ -89,16 +244,24 @@
        x="91.758934"
        y="78.033844"
        transform="rotate(90)" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#060a08;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.11125004;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4518-3-1-6"
+       width="117.00001"
+       height="84.875168"
+       x="97.979164"
+       y="78.033844"
+       transform="rotate(90)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.40055847px;line-height:217.50259399px;font-family:Quicksand;-inkscape-font-specification:Quicksand;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.68695652;stroke:none;stroke-width:0.26458329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.40055847px;line-height:217.50259399px;font-family:Quicksand;-inkscape-font-specification:Quicksand;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.68695655;stroke:none;stroke-width:0.26458329px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-146.26193"
-       y="169.60924"
+       y="164.8468"
        id="text7192"><tspan
          sodipodi:role="line"
          id="tspan7190"
          x="-146.26193"
-         y="169.60924"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Quicksand;-inkscape-font-specification:'Quicksand Bold';fill:#ffffff;fill-opacity:0.68695652;stroke-width:0.26458329px;">Disabled text</tspan></text>
+         y="164.8468"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Quicksand;-inkscape-font-specification:'Quicksand Bold';fill:#ffffff;fill-opacity:0.68695655;stroke-width:0.26458329px">Disabled text</tspan></text>
   </g>
 </svg>

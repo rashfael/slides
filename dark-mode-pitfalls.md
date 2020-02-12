@@ -2,7 +2,9 @@
 theme: dark
 ---
 
-# Dark Mode Pitfalls
+# Implementation
+### and
+# Pitfalls
 
 ---
 
@@ -28,6 +30,14 @@ theme: dark
 
 <img src="./assets/fails/grey-palette-5.svg">
 
+===
+
+desaturate foreground colors
+
+---
+
+# Shadow
+
 ---
 
 # Check Your Assets
@@ -46,7 +56,7 @@ theme: dark
 
 ===
 
-<img class="small" src="./assets/fails/wrong-content.svg">
+<img class="small" src="./assets/fails/illustration2.svg">
 
 ---
 
@@ -62,13 +72,45 @@ theme: dark
 
 ===
 
+```css
+@media(prefers-color-scheme: dark) {
+	body {
+		background-color: #263238;
+		color: #FFF;
+	}
+}
+```
+
+===
+
+<fragment>
+
+```css
+@media(prefers-color-scheme: dark) {
+	:root {
+		--color-background: #263238;
+		--color-text: #FFF;
+	}
+}
+```
+
+</fragment>
+
+===
+
+<fragment>
+
 ```html
 <link href="base.css" rel="stylesheet">
 <link href="theme.css" rel="stylesheet"
       media="prefers-color-scheme: dark">
 ```
 
+</fragment>
+
 ===
+
+<fragment>
 
 ```html
 <picture>
@@ -76,6 +118,8 @@ theme: dark
   <img src="default.svg" />
 </picture>
 ```
+
+</fragment>
 
 ===
 
@@ -95,11 +139,18 @@ lightness(color) < 60% ? $clr-text-dark : $clr-text-light
 alpha(color, 0.08)
 ```
 
+:::notes
+
+- CSS Color Level 5
+
+:::
+
 ===
 
-# Genenerate Multiple Stylesheets
+# Bundlers
 
 :::notes
+- Webpack
 - Generate multiple stylesheets with different variables
 :::
 
